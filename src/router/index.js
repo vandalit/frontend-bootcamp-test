@@ -25,19 +25,19 @@
 // export default router
 
 import { createRouter, createWebHistory } from 'vue-router';
-import Home from '@/views/Home.vue';
-import About from '@/views/About.vue';
+import HomeView from '@/views/HomeView.vue';
+import AboutView from '@/views/AboutView.vue';
 
 const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: Home
+    name: 'HomeView',
+    component: HomeView
   },
   {
     path: '/about',
-    name: 'About',
-    component: About
+    name: 'AboutView',
+    component: AboutView
   }
 ];
 

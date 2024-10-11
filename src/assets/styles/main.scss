@@ -1,0 +1,21 @@
+// src/assets/styles/main.scss
+
+// Definir colores
+$primary-color: #3498db;
+$secondary-color: #2ecc71;
+
+// Tipografía global
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: $primary-color;
+  color: white;
+}
+
+// Clases comunes
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
