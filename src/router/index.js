@@ -31,12 +31,12 @@ import AboutView from '@/views/AboutView.vue';
 const routes = [
   {
     path: '/',
-    name: 'HomeView',
+    name: 'Home',
     component: HomeView
   },
   {
     path: '/about',
-    name: 'AboutView',
+    name: 'About',
     component: AboutView
   }
 ];
